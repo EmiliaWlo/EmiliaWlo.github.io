@@ -1,10 +1,18 @@
 body {
     font-family: "Trirong", serif;
-    background-color: rgb(71, 67, 67);
-    color: rgb(255, 255, 255);
+    background-color: rgb(21, 21, 21);
+    width: calc(90vw);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
 }
 
 h2 {
-    font-weight: normal;
-    text-decoration: underline;
+    font-weight: bold;
+}
+
+body,
+a[target="_blank"] {
+    color: white;
 }
