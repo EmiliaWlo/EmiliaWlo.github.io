@@ -20,7 +20,20 @@
     <div id="answer">
         NO
     </div>
-    <img src="penguin640.png" width="100px">
+    <img src="penguin640.png" id="penguin" width="100px" style="position: relative; left:100px">
+    
+    <script>
+        let position = 100;
+        const updatePenguinPosition = () => {
+            const browserWidth = window.innerWidth;
+            position += 1;
+            if (position > browserWidth) {
+                position = -100; 
+            }
+            document.getElementById('penguin').style.left = position;
+        }
+        setInterval(updatePenguinPosition, 20);
+    </script>
 </body>
 
 </html>
