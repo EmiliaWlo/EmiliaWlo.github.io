@@ -4,86 +4,122 @@
     <title>
         Emilia Wlodarska
     </title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <link rel="stylesheet" href="styles.css">
-
+    <link href="https://fonts.cdnfonts.com/css/muli" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css"
+        integrity="sha512-+oRH6u1nDGSm3hH8poU85YFIVTdSnS2f+texdPGrURaJh8hzmhMiZrQth6l56P4ZQmxeZzd2DqVEMqQoJ8J89A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
-    <section>
-        <h1>Emilia Wlodarska</h1>
-        <p> Gloucestershire UK</p>
-        <p>emiliawlodarska@gmail.com</p>
-        <p>Tri-lingual – English, Polish & French</p>
-        <p>
-            Experienced tech specialist with a background in digital marketing and SEO with a strong interest in AI
-            and UX
-            design. Software development Bootcamp graduate, ServiceNow CSA certified with a proven track record of
-            meeting
-            tight deadlines whilst prioritizing
-            workloads. Transitioned from marketing into technology via full-time boot camp.
-        </p>
-    </section>
-    <section>
-        <h2>Skills</h2>
+<body class="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top d-none d-md-grid" id="sidenav">
+        <div class="navbar-brand js-scroll-trigger">
+            <span class="d-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-4 shadow-lg"
+                    src="assets/images/black-and-white-headshot.png" alt="Emilia Wlodarska"></span>
+        </div>
+
+        <div class="social-icons mb-4">
+            <a class="social-icon shadow-lg" href="https://linkedin.com/in/emilia-wlodarska-627450151" target="_blank">
+                <i class="fa-brands fa-linkedin"> </i>
+            </a>
+            <a class="social-icon shadow-lg" href="https://github.com/EmiliaWlo/" target="_blank">
+                <i class="fa-brands fa-github"> </i>
+            </a>
+        </div>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About <i
+                        class="fa-solid fa-address-card"></i></a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills <i
+                        class="fa-solid fa-wrench"></i> </a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience <i
+                        class="fa-solid fa-briefcase"></i></a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education <i
+                        class="fa-solid fa-building-columns"></i></a></li>
+        </ul>
+    </nav>
+    <div class="container-fluid p-0 mt-4" id="cv_contents">
+        <section id="about" class="bg-white px-4 pt-4 pb-2 rounded shadow-lg">
+            <h1>Emilia <span class=" primary-color">Wlodarska</span></h1>
+            <p class="subheading"> Gloucestershire, UK · emiliawlodarska@gmail.com · Tri-lingual – English, Polish
+                &
+                French</p>
+            <hr />
+            <p>
+                Experienced tech specialist focused on full-stack web development and ServiceNow implementation.
+                Software
+                development Bootcamp graduate, ServiceNow CSA certified with a proven track record of meeting tight
+                deadlines whilst prioritizing workloads.
+            </p>
+        </section>
+        <section id="skills" class="bg-white px-4 pt-4 pb-2 rounded shadow-lg">
+            <h4>Skills</h4>
 
 
-        <ul>
-            <li> Java Spring Boot, Python, MYSQL, PostgreSQL</li>
-            <li> Git, Jira</li>
-            <li> ServiceNow (CSA certified), ITIL4 certified (2022), Azure (AZ-900 certified) </li>
-            <li> SEM, SEO, SMO, Adobe Photoshop</li>
-        </ul>
-    </section>
-    <section>
-        <h2> Experience</h2>
-        <div><b> QA Ltd.</b></div>
-        <div><b> Software Development Bootcamp </b> (Jan-Mar 2022) - DFE Core Pathway</div>
-        <ul>
-            <li>Trained in a 9-week intensive focused on software application and delivery. Work and learning culminated
-                in a personal project called Healthclusive that used Java Spring Boot to build a fully functioning
-                healthcare
-                sector web app that matches therapy providers to clients with specific needs (e.g., vision or hearing
-                loss)
-            </li>
-            <li>Deployed project code using GitHub and Maven </li>
-            <li> Achieved 99.4 % Unit Test coverage over 1,163 lines of code </li>
-            <li> Project Link: <a href="https://github.com/EmiliaWlo/HealthclusiveSpring" target="_blank">
-                    https://github.com/EmiliaWlo/HealthclusiveSpring </a> </li>
-        </ul>
-        <div><b> ServiceNow Pathway </b> (Mar-Jul 2022)</div>
-        <ul>
-            <li>Built and deployed a working prototype of a ServiceNow application and presented it to Accenture as a
-                group project</li>
-            <li>Within the project, led the implementation of Service Portal web UI and mobile app interface </li>
-            <li>Designed the logo of the application, as well as the layout and used CSS to customise app content
-            </li>
-        </ul>
-        <div><b> Tech Specialist </b> (Aug 2022 – Present)</div>
-        <ul>
-            <li>Completed training in Agile best practices, AWS, and Microsoft Azure. Currently enrolled in
-                a 7-month intensive through Meta’s frontend developer training via Coursera.
-            </li>
-        </ul>
+            <ul>
+                <li> Java, Spring Boot, Python, MYSQL, PostgreSQL</li>
+                <li> HTML, CSS, JavaScript, NodeJS, Selenium</li>
+                <li> Git, Jira</li>
+                <li> ServiceNow (CSA certified), ITIL4 certified (2022), Azure (AZ-900 certified) </li>
+                <li> SEM, SEO, SMO, Adobe Photoshop</li>
+            </ul>
+        </section>
+        <section id="experience" class="bg-white px-4 pt-4 pb-2 rounded shadow-lg">
+            <h4> Experience</h4>
+            <h6> QA Ltd.</h6>
+            <div><b> Software Development Bootcamp </b> (Jan-Mar 2022) - DFE Core Pathway</div>
+            <ul>
+                <li>Trained in a 9-week intensive focused on software application and delivery learning Java and Python.
+                    Delivered a personal final project that used Java Spring Boot to build a healthcare sector web app
+                    to
+                    match therapy providers to clients with accessibility needs
+                </li>
+                <li>Deployed project code using GitHub and Maven </li>
+                <li> Achieved 99.4 % Unit Test coverage over 1,163 lines of code </li>
+                <li> Project Link: <a id="project_link" href="https://github.com/EmiliaWlo/HealthclusiveSpring"
+                        target="_blank" class="primary-color">
+                        https://github.com/EmiliaWlo/HealthclusiveSpring </a> </li>
+            </ul>
+            <div><b> ServiceNow Pathway </b> (Mar-Jul 2022)</div>
+            <ul>
+                <li>Earned CSA and ITIL4 certifications</li>
+                <li>Built and deployed a ServiceNow application using App Engine Studio, designed data models and flows,
+                    delivered mobile and Service Portal Web UI, customized business workspaces, and presented it to
+                    Accenture as part of the NextGen program
+                </li>
+            </ul>
+            <div><b> Tech Specialist </b> (Aug 2022 – Present)</div>
+            <ul>
+                <li>Completed training in Agile best practices, AWS, and Microsoft Azure. Currently enrolled in
+                    a 7-month intensive through Meta’s frontend developer training via Coursera.
+                </li>
+            </ul>
+            <h6> Other</h6>
 
-        <div><b> Misc.</b> (2012-2022)</div>
-        <ul>
-            <li> Various roles in Business, Marketing and Management</li>
-        </ul>
+            <div><b> Misc.</b> (2012-2022)</div>
+            <ul>
+                <li> Various roles in Business, Marketing and Management</li>
+            </ul>
 
-    </section>
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li> University of Gloucestershire / MSc Marketing (2016-2017), Cheltenham </li>
+        </section>
+        <section id="education" class="bg-white px-4 pt-4 pb-2 rounded shadow-lg">
+            <h4>Education</h4>
+            <ul>
+                <li> University of Gloucestershire / MSc Marketing (2016-2017), Cheltenham </li>
 
-            <li> London Metropolitan University / BSc Psychology & Sociology (2012-2015), London </li>
-            <li>
-                Hobbies and Interests: Art, Drawing, Music, Foreign cultures, Technology
+                <li> London Metropolitan University / BSc Psychology & Sociology (2012-2015), London </li>
+                <li>
+                    Hobbies and Interests: Art, Drawing, Music, Foreign cultures, Technology
 
-            </li>
-        </ul>
-    </section>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bbd0e072af.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
